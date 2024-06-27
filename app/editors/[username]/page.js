@@ -1,6 +1,7 @@
 import React from 'react'
 import connectDB from '@/db/connectDb';
 import { findUserByUsername } from '@/db/paramwala';
+import Image from 'next/image';
 
 const Username = async ({ params }) => {
     connectDB;
@@ -9,8 +10,8 @@ const Username = async ({ params }) => {
     return (
         <>
             <section className="fmn">
-                <img className="usercoverpic" src={`${user.coverimage}`} alt="coverpic" />
-                <img className="userpic" src={`${user.image}`} alt="coverpic" />
+                <Image className="usercoverpic" src={`${user.coverimage}`} alt="coverpic" ></Image>
+                <Image className="userpic" src={`${user.image}`} alt="coverpic" ></Image>
 
                 <h2>{params.username}</h2>
                 <div>{`${params.username.toLowerCase()}@gmail.com`}</div>
