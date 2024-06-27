@@ -1,7 +1,6 @@
 import React from 'react'
 import connectDB from '@/db/connectDb';
 import { findUserByUsername } from '@/db/paramwala';
-import Image from 'next/image';
 
 const Username = async ({ params }) => {
     connectDB;

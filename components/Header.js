@@ -4,7 +4,6 @@ import { useSession, signIn, signOut } from "next-auth/react"
 import Link from 'next/link'
 import localfont from "next/font/local";
 const gazpacho = localfont({src:"./gazpacho.ttf"});
-import Image from "next/image";
 
 const Header = () => {
     const { data: session } = useSession()

@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 import { users } from '@/db/displaydoc'
-import Image from 'next/image'
 
 
 const Editors = () => {
