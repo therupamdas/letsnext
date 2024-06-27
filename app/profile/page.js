@@ -1,7 +1,7 @@
 "use client"
+import { useRouter } from 'next/navigation';
 import React from 'react'
 import { useSession, signIn, signOut } from "next-auth/react"
-import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 
 const Profile = () => {
