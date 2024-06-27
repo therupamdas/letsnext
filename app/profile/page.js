@@ -2,20 +2,19 @@
 import React from 'react'
 import { useRouter } from 'next/navigation';
 import { useSession, signIn, signOut } from "next-auth/react"
-import Image from 'next/image'
 
 const Profile = () => {
 
+  const router = useRouter();
   const { data: session } = useSession();
 
   if (!session) {
-    const router = useRouter();
     router.push('/')
   }
   else
     {return (
       <div className='profile'>
-        <Image src={session.user.image}></Image>
+        <img src={session.user.image}></img>
         <div className="info">
           <h1>{session.user.name}</h1>
           <h4>Email:  {session.user.email}</h4>
