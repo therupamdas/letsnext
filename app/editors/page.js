@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { users } from '@/db/displaydoc'
+import Image from 'next/image'
 
 
 const Editors = () => {
@@ -10,7 +11,7 @@ const Editors = () => {
                 <Link key={index} className="ed" href={`/editors/${user.username}`}>
                     <div className="glow2">
                         <div id="backcircle"></div>
-                        <img src={user.image} alt={user.name}></img>
+                        <Image src={user.image} alt={user.name}></Image>
                     </div>
                     <div className="ediname">
                         {user.name}

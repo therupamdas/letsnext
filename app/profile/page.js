@@ -8,7 +8,7 @@ const Profile = () => {
   const { data: session } = useSession()
 
   if (!session) {
-    const router = useRouter()
+    const router = useRouter();
     router.push('/')
   }
   else
