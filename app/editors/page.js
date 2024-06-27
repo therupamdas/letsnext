@@ -11,7 +11,7 @@ const Editors = () => {
                 <Link key={index} className="ed" href={`/editors/${user.username}`}>
                     <div className="glow2">
                         <div id="backcircle"></div>
-                        <Image src={user.image} alt={user.name}></Image>
+                        <img src={user.image} alt={user.name}></img>
                     </div>
                     <div className="ediname">
                         {user.name}

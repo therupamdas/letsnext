@@ -26,7 +26,7 @@ const Header = () => {
             </div>
             <div className="glow">
                 <div id="backcircle"></div>
-                <Image height="200" width="200" className="emblem" src="/emblem.png"></Image>
+                <img className="emblem" src="/emblem.png"></img>
             </div>
             <div className="user" >
                 {!session && <Link href={" "}  className="sinup" onClick={() => {document.querySelector(".logbox").classList.add("active")}}>Log in</Link>}
@@ -39,7 +39,7 @@ const Header = () => {
                 <div className="glow2" id="displaypicture">
                     <div className="visiual_01">
                         <div id="backcircle"></div>
-                        <Image id="logopic" src={session.user.image}></Image>
+                        <img id="logopic" src={session.user.image}></img>
                     </div>
                     <b>{session.user.name}</b>
                 </div>

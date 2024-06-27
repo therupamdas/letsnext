@@ -10,8 +10,8 @@ const Username = async ({ params }) => {
     return (
         <>
             <section className="fmn">
-                <Image className="usercoverpic" src={`${user.coverimage}`} alt="coverpic" ></Image>
-                <Image className="userpic" src={`${user.image}`} alt="coverpic" ></Image>
+                <img className="usercoverpic" src={`${user.coverimage}`} alt="coverpic" ></img>
+                <img className="userpic" src={`${user.image}`} alt="coverpic" ></img>
 
                 <h2>{params.username}</h2>
                 <div>{`${params.username.toLowerCase()}@gmail.com`}</div>

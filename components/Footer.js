@@ -8,17 +8,17 @@ const Footer = () => {
         <section className="footrow">
             <div className="f1" id="fb">
                 <Link className="f2" href="https://www.youtube.com/channel/UCNaHDMLiuWCrKtYi0sTJVzQ" target="_main">
-                    <Image src="/YT.png" alt="fb" ></Image>
+                    <img src="/YT.png" alt="fb" ></img>
                 </Link>
             </div>
             <div className="f1" id="ig">
                 <Link className="f2" href="https://www.instagram.com/fitwithrupamdas/" target="_main">
-                    <Image src="/IG.png" alt="Ig" ></Image>
+                    <img src="/IG.png" alt="Ig" ></img>
                 </Link>
             </div>
             <div className="f1" id="yt">
                 <Link className="f2" href="https://www.youtube.com/channel/UCNaHDMLiuWCrKtYi0sTJVzQ" target="_main">
-                    <Image src="/YT.png" alt="Yt" ></Image>
+                    <img src="/YT.png" alt="Yt" ></img>
                 </Link>
             </div>
         </section>
