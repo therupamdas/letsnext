@@ -17,6 +17,9 @@ const userSchema = new mongoose.Schema({
     coverimage:{
         type: String
 
+    },
+    phonenumber:{
+        type: String
     }
 });
 

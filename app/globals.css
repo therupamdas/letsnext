@@ -3,9 +3,14 @@ body {
     margin: 0;
     background-color: #000000;
 }
-/* sinup 
+/* 
+h1
+profile
+sinup 
 outt
+ed
 user
+blok
 */
 h1{
     color: #7620ff;
@@ -13,6 +18,11 @@ h1{
 }
 h2{
     margin: 0.1vw;
+}
+.ed:hover {
+    background-color: rgba(26, 36, 63, 0.9);
+    box-shadow: 0 0 0.6vw 0.2vw #7620ff;
+
 }
 p{
     margin-left: 15vw;
@@ -54,7 +64,7 @@ a {
     padding-right: 2vw;
     transition: all ease 0.15s;
     color: #7620ff;
-    width: 8vw;
+    width: 12vw;
     text-align: center;
 }
 
@@ -372,10 +382,15 @@ header {
 .profile{
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 100%;
-    margin-top: 10vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.info{
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 .fmn{
     display: flex;

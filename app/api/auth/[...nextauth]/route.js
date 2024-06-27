@@ -24,7 +24,8 @@ export const aoptions = NextAuth({
             username: user.email.split("@")[0],
             name: user.name,
             image: user.image,
-            coverimage: user.coverimage,D
+            coverimage: user.coverimage,
+            phonenumber: user.phone,
           })
         }
         return true;
