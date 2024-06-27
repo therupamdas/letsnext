@@ -4,6 +4,7 @@ import { useSession, signIn, signOut } from "next-auth/react"
 import Link from 'next/link'
 import localfont from "next/font/local";
 const gazpacho = localfont({src:"./gazpacho.ttf"});
+import Image from "next/image";
 
 const Header = () => {
     const { data: session } = useSession()
@@ -25,7 +26,7 @@ const Header = () => {
             </div>
             <div className="glow">
                 <div id="backcircle"></div>
-                <img src="/emblem.png"></img>
+                <Image height="200" width="200" className="emblem" src="/emblem.png"></Image>
             </div>
             <div className="user" >
                 {!session && <Link href={" "}  className="sinup" onClick={() => {document.querySelector(".logbox").classList.add("active")}}>Log in</Link>}
@@ -38,7 +39,7 @@ const Header = () => {
                 <div className="glow2" id="displaypicture">
                     <div className="visiual_01">
                         <div id="backcircle"></div>
-                        <img id="logopic" src={session.user.image}></img>
+                        <Image id="logopic" src={session.user.image}></Image>
                     </div>
                     <b>{session.user.name}</b>
                 </div>

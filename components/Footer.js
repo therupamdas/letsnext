@@ -1,23 +1,25 @@
 import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const Footer = () => {
     return (
         <footer>
         <section className="footrow">
             <div className="f1" id="fb">
-                <a className="f2" href="https://www.youtube.com/channel/UCNaHDMLiuWCrKtYi0sTJVzQ" target="_main">
-                    <img src="/YT.png" alt="fb" />
-                </a>
+                <Link className="f2" href="https://www.youtube.com/channel/UCNaHDMLiuWCrKtYi0sTJVzQ" target="_main">
+                    <Image src="/YT.png" alt="fb" ></Image>
+                </Link>
             </div>
             <div className="f1" id="ig">
-                <a className="f2" href="https://www.instagram.com/fitwithrupamdas/" target="_main">
-                    <img src="/IG.png" alt="Ig" />
-                </a>
+                <Link className="f2" href="https://www.instagram.com/fitwithrupamdas/" target="_main">
+                    <Image src="/IG.png" alt="Ig" ></Image>
+                </Link>
             </div>
             <div className="f1" id="yt">
-                <a className="f2" href="https://www.youtube.com/channel/UCNaHDMLiuWCrKtYi0sTJVzQ" target="_main">
-                    <img src="/YT.png" alt="Yt" />
-                </a>
+                <Link className="f2" href="https://www.youtube.com/channel/UCNaHDMLiuWCrKtYi0sTJVzQ" target="_main">
+                    <Image src="/YT.png" alt="Yt" ></Image>
+                </Link>
             </div>
         </section>
         <section className="footrow">
