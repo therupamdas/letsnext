@@ -14,9 +14,9 @@ const About = () => {
 
       <p>Additionally, Vring specializes in designing stunning websites that captivate and engage. Whether you need a portfolio site to showcase your work or an e-commerce platform to sell your creations, our designers combine aesthetics with functionality to deliver a seamless online presence.</p>
 
-      <p>Join the creative revolution with Vring and explore endless possibilities to express yourself through visual storytelling. Empower your creativity and elevate your projects with Vring – where innovation meets imagination.</p>
+      <p>Join the creative revolution with Vring and explore endless possibilities to express yourself through visual storytelling. Empower your creativity and elevate your projects with Vring   where innovation meets imagination.</p>
 
-      <p>Discover Vring today and turn your ideas into extraordinary creations that leave a lasting impression. Welcome to a world of endless creativity – welcome to Vring.</p>
+      <p>Discover Vring today and turn your ideas into extraordinary creations that leave a lasting impression. Welcome to a world of endless creativity   welcome to Vring.</p>
     </div>
   )
 }
