@@ -1,9 +1,9 @@
-import React from 'react'
-import Link from 'next/link'
-import { users } from '@/db/displaydoc'
-
+import React from 'react';
+import Link from 'next/link';
+import { users } from '@/db/connectDb';
 
 const Editors = () => {
+    
     return (
         <div className="edilist">
             {users.map((user, index) => (
