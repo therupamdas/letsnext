@@ -3,7 +3,7 @@ import User from "@/models/User";
 
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect(`mongodb+srv://rupamdas77:72gPQEixYPCV37qj@rupamdas.ndbssvp.mongodb.net/vring77`, {
+    const conn = await mongoose.connect(process.env.URI, {
     });
     console.log(`MongoDB Connected: ${conn.connection.host}`);
   } catch (error) {
