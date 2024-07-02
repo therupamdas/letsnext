@@ -4,7 +4,7 @@ import connectDB from '@/db/connectDb';
 import { users } from '@/db/connectDb';
 
 const Editors = async () => {
-    // await connectDB();
+    await connectDB();
     return (
         <div className="edilist">
             {users.map((user, index) => (
