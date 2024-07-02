@@ -1,9 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
+import connectDB from '@/db/connectDb';
 import { users } from '@/db/connectDb';
 
-const Editors = () => {
-    
+const Editors = async () => {
+    // await connectDB();
     return (
         <div className="edilist">
             {users.map((user, index) => (
