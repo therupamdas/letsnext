@@ -764,4 +764,46 @@ footer {
         font-size: 6vw;
 
     }
+    .logbox{
+        height: 75vw;
+        width: 75vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        border-radius: 0.6vw;
+        aspect-ratio: 4/3;
+    }
+    .logbox input {
+        width: 100%;
+        height: 10%;
+        font-size: 2.5vw;
+        padding-left: 2%;
+    }
+    
+    .logbox h2 {
+        font-size: 5vw;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .logbox label {
+        width: 100%;
+        font-family: Helvetica;
+        font-size: 3vw;
+        text-align: left;
+        color: #000000;
+    }
+    
+    .ent {
+        width: 100%;
+        height: 15%;
+        margin-top: 2%;
+        aspect-ratio: 2.25/1;
+        font-size: 3.5vw;
+        border-radius: 6px;
+    }
+    
 }
