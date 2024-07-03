@@ -6,6 +6,7 @@ body {
 /*
 gitgit 
 h1
+.ent
 img
 profile
 sinup 
@@ -13,7 +14,16 @@ outt
 ed
 user
 blok
+.logbox
 */
+.buttonbox{
+    width: 30vw;
+    height: 50%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 h1{
     color: #7620ff;
     text-align: center;
@@ -152,7 +162,7 @@ header {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     
-    height: 30vw;
+    height: 35vw;
     box-shadow: 0vw 0vw 5vw 1vw #7620ff;
     top: -50%;
     opacity: 0;
@@ -168,7 +178,7 @@ header {
     border-radius: 0.6vw;
     aspect-ratio: 4/3;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
@@ -348,37 +358,49 @@ header {
 
 }
 
-.logbox input {
-    width: 100%;
-    height: 10%;
+.buttonbox input {
+    width: 27.75vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    height: 15%;
+    margin-top: 2%;
     font-size: 1vw;
-    padding-left: 2%;
 }
 
-.logbox h2 {
+.buttonbox h2 {
     font-size: 2vw;
-    width: 100%;
+    width: 25vw;
     margin: 2.5%;
     text-align: center;
     color: #000000;
 }
 
-.logbox label {
-    width: 100%;
+.buttonbox label {
+    width: 29.5vw;
+    margin-top: 0.4vw;
     font-family: Helvetica;
     font-size: 1vw;
     text-align: left;
     color: #000000;
 }
+#buttonbox1{
+    width: 30vw;
+    padding-bottom: 2.7vw;
+    border-bottom: 1px solid #575757;
+
+}
+#buttonbox2{
+    height: 30%;
+}
 
 .ent {
     text-decoration: none;
-    width: 100%;
-    height: 15%;
+    width: 30vw;
+    height: 6vw;
     margin-top: 2%;
     aspect-ratio: 2.25/1;
     font-size: 1.5vw;
-    border-radius: 6px;
+    border-radius: 0.4vw;
     transition: all ease 0.2s;
     display: flex;
     justify-content: center;
@@ -799,9 +821,8 @@ footer {
     
     .ent {
         width: 100%;
-        height: 15%;
+        height: 9vw;
         margin-top: 2%;
-        aspect-ratio: 2.25/1;
         font-size: 3.5vw;
         border-radius: 6px;
     }
@@ -813,6 +834,14 @@ footer {
     }
     .usercoverpic{
         margin-bottom: 13vw;  
+    }
+    .buttonbox{
+        width: 75vw;
+        height: 50%;
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     
 }
