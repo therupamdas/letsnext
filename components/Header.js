@@ -17,7 +17,7 @@ const Header = () => {
                 <label>Password</label>
                 <input type="text" placeholder="Password"></input>
                 <button onClick={() => {document.querySelector(".logbox").classList.remove("active");}}className={`ent ${gazpacho.className}`}>Enter</button>
-                <hr></hr>
+                <hr className="linebar"></hr>
                 <button className={`ent ${gazpacho.className}`} id="gitgit" onClick={() => { signIn("github");document.querySelector(".logbox").classList.remove("active"); }} >GitHub</button>
                 <button className={`ent ${gazpacho.className}`} id="googoo" onClick={() => { signIn("google");document.querySelector(".logbox").classList.remove("active");}} >Google</button>
                 
