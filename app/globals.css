@@ -618,7 +618,7 @@ footer {
     color: #ffffff;
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:1200px) {
     header {
         width: 100%;
         transition: all ease 0.2s;
