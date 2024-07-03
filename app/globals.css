@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: #000000;
 }
+
 /*
 gitgit 
 h1
@@ -15,22 +16,26 @@ ed
 user
 blok
 */
-h1{
+h1 {
     color: #7620ff;
     text-align: center;
 }
-h2{
+
+h2 {
     margin: 0.1vw;
 }
+
 .ed:hover {
     background-color: rgba(26, 36, 63, 0.9);
     box-shadow: 0 0 0.6vw 0.2vw #7620ff;
 
 }
-p{
+
+p {
     margin-left: 15vw;
     margin-right: 15vw;
 }
+
 button {
     border: none;
 
@@ -44,12 +49,14 @@ button {
 #gitgit:hover {
     background-color: #333333;
 }
-#googoo{
+
+#googoo {
     background-color: #ff1b1b;
 
 }
-#googoo:hover{
-    background-color: #ff4141;    
+
+#googoo:hover {
+    background-color: #ff4141;
 }
 
 
@@ -135,7 +142,7 @@ header {
     align-items: center;
     height: 7vw;
     background-color: #121212;
-    border-bottom:solid 1px #000000;
+    border-bottom: solid 1px #000000;
 }
 
 @keyframes dim {
@@ -153,7 +160,7 @@ header {
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    
+
     height: 36vw;
     box-shadow: 0vw 0vw 5vw 1vw #7620ff;
     top: -50%;
@@ -176,7 +183,8 @@ header {
     background-color: #ffffff;
     transition: all ease 0.4s;
 }
-.linebar{
+
+.linebar {
     border: 1px solid rgb(136, 136, 136);
     width: 100%;
 }
@@ -319,14 +327,15 @@ header {
 
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     flex-direction: row;
     margin: 1vw;
-     
+
 }
-.sidebar{
+
+.sidebar {
     background-color: #000000;
     border-radius: 1vw 0vw 0vw 1vw;
     border: 1px solid #636363;
@@ -335,16 +344,18 @@ header {
     padding: 5vw;
     height: 100%;
 }
-.postbar{
+
+.postbar {
     background-color: #000000;
     border: 1px solid #636363;
-    border-radius: 0vw 1vw 1vw 0vw ;
+    border-radius: 0vw 1vw 1vw 0vw;
     width: 80vw;
     padding: 5vw;
     height: 100%;
 
 }
-.emblem{
+
+.emblem {
     position: absolute;
     height: 5vw;
     width: 5vw;
@@ -421,7 +432,8 @@ header {
     color: #ffffff;
     border: 2px solid#ffffff;
 }
-.profile{
+
+.profile {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -430,41 +442,49 @@ header {
     margin-left: 5vw;
     margin-right: 5vw;
 }
-.info{
+
+.info {
     margin-left: 5vw;
     margin-right: 5vw;
 }
-.fmn{
+
+.fmn {
     display: flex;
     justify-items: center;
     align-items: center;
     flex-direction: column;
 }
-.usercoverpic{
+
+.usercoverpic {
     width: 100%;
     height: 20vw;
     margin-bottom: 6vw;
     object-fit: cover;
-      
+
 }
-.userpic{
-    position:absolute;
+
+.userpic {
+    position: absolute;
     top: 25vw;
     width: 10vw;
     height: 10vw;
-    border-radius: 50%; 
+    border-radius: 50%;
     border: 0.5vw solid white;
 }
-h4{
+
+h4 {
     margin: 0;
 }
-h1{
+
+h1 {
     margin-bottom: 0.3vw;
 }
-.profile img{
+
+.profile img {
     width: 30vw;
     height: 30vw;
 }
+
 .user {
     height: 6.2vw;
     width: 6.2vw;
@@ -771,7 +791,8 @@ footer {
         font-size: 6vw;
 
     }
-    .logbox{
+
+    .logbox {
         height: 80vw;
         width: 75vw;
         padding-left: 2vw;
@@ -781,13 +802,14 @@ footer {
         border-radius: 0.6vw;
         aspect-ratio: 4/3;
     }
+
     .logbox input {
         width: 100%;
         height: 10%;
         font-size: 2.5vw;
         padding-left: 2%;
     }
-    
+
     .logbox h2 {
         font-size: 5vw;
         width: 100%;
@@ -795,7 +817,7 @@ footer {
         text-align: center;
         color: #000000;
     }
-    
+
     .logbox label {
         width: 100%;
         font-family: Helvetica;
@@ -803,7 +825,7 @@ footer {
         text-align: left;
         color: #000000;
     }
-    
+
     .ent {
         width: 100%;
         height: 15%;
@@ -812,16 +834,18 @@ footer {
         font-size: 3.5vw;
         border-radius: 6px;
     }
-    .userpic{
+
+    .userpic {
         top: 40vw;
         width: 30vw;
         height: 30vw;
 
     }
-    .usercoverpic{
+
+    .usercoverpic {
         margin-bottom: 12vw;
 
-  
+
     }
-    
+
 }
