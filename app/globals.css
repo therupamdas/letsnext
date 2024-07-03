@@ -3,7 +3,8 @@ body {
     margin: 0;
     background-color: #000000;
 }
-/* 
+/*
+gitgit 
 h1
 img
 profile
@@ -41,6 +42,14 @@ button {
 #gitgit:hover {
     background-color: #333333;
 }
+#googoo{
+    background-color: #ff1b1b;
+
+}
+#googoo:hover{
+    background-color: #ff4141;    
+}
+
 
 a {
     text-decoration: none;

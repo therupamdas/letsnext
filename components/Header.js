@@ -9,10 +9,6 @@ const Header = () => {
     const { data: session } = useSession()
     return (
         <header>
-            <div className="alertbox">
-                <button className="cross" id="alertcross">x</button>
-                <h2>Please Login</h2>
-            </div>
             <div className="logbox">
                 <button className="cross" id="logcross" onClick={() => {document.querySelector(".logbox").classList.remove("active");}}>x</button>
                 <h2>Log in </h2>
@@ -20,8 +16,9 @@ const Header = () => {
                 <input type="text" placeholder="Email Id"></input>
                 <label>Password</label>
                 <input type="text" placeholder="Password"></input>
-                <button className={`ent ${gazpacho.className}`}>Enter</button>
-                <button className={`ent ${gazpacho.className}`} id="gitgit" onClick={() => { signIn("github") }} >GitHub</button>
+                <button onClick={() => {document.querySelector(".logbox").classList.remove("active");}}className={`ent ${gazpacho.className}`}>Enter</button>
+                <button className={`ent ${gazpacho.className}`} id="gitgit" onClick={() => { signIn("github");document.querySelector(".logbox").classList.remove("active"); }} >GitHub</button>
+                <button className={`ent ${gazpacho.className}`} id="googoo" onClick={() => { signIn("github");document.querySelector(".logbox").classList.remove("active");}} >Google</button>
             </div>
             <div className="glow">
                 <div id="backcircle"></div>
