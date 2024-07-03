@@ -12,6 +12,7 @@ export const aoptions = NextAuth({
       clientSecret: process.env.GITHUB_SECRET
     })
   ],
+  secret: process.env.NEXTAUTH_SECRET,
   callbacks: {
     async signIn({ user, account, profile, email, credentials }) {
       if (account.provider == "github") {
