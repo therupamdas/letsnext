@@ -651,7 +651,7 @@ footer {
 
     .glow {
         margin-left: 3vw;
-        margin-right: 40%;
+        margin-right: 30%;
         width: 22vw;
         height: 22vw;
         transition: all ease 0.2s;
@@ -804,6 +804,15 @@ footer {
         aspect-ratio: 2.25/1;
         font-size: 3.5vw;
         border-radius: 6px;
+    }
+    .userpic{
+        top: 40vw;
+        width: 30vw;
+        height: 30vw;
+
+    }
+    .usercoverpic{
+        margin-bottom: 13vw;  
     }
     
 }
