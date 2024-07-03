@@ -10,7 +10,6 @@ const Header = () => {
     return (
         <header>
             <div className="logbox">
-                <div className="buttonbox" id="buttonbox1">
                 <button className="cross" id="logcross" onClick={() => {document.querySelector(".logbox").classList.remove("active");}}>x</button>
                 <h2>Log in </h2>
                 <label>Email</label>
@@ -18,13 +17,10 @@ const Header = () => {
                 <label>Password</label>
                 <input type="text" placeholder="Password"></input>
                 <button onClick={() => {document.querySelector(".logbox").classList.remove("active");}}className={`ent ${gazpacho.className}`}>Enter</button>
-                </div>
-
-                <div className="buttonbox" id="buttonbox2">
-                
+                <hr></hr>
                 <button className={`ent ${gazpacho.className}`} id="gitgit" onClick={() => { signIn("github");document.querySelector(".logbox").classList.remove("active"); }} >GitHub</button>
                 <button className={`ent ${gazpacho.className}`} id="googoo" onClick={() => { signIn("google");document.querySelector(".logbox").classList.remove("active");}} >Google</button>
-                </div>
+                
             </div>
             <div className="glow">
                 <div id="backcircle"></div>
