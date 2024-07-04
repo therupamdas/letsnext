@@ -476,6 +476,7 @@ ul {
     transition: all ease 0.3s;
 }
 
+
 .order {
     border: 1px solid #1f1f1f;
     height: 20vw;
@@ -483,8 +484,7 @@ ul {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.apost {
-}
+
 .clientbox{
     display: flex;
     align-items: center;
