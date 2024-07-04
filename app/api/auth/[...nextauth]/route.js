@@ -43,10 +43,6 @@ export const aoptions = NextAuth({
       session.user.username = dbUser.username;
       return session;
     },
-    async reqsub({}){
-      await connectDB();
-
-    }
 
   }
 

@@ -1,6 +1,7 @@
 "use client"
 import React from "react";
-import { useSession, signIn, signOut } from "next-auth/react"
+import { useSession, signIn, signOut } from "next-auth/react";
+
 
 const Community = () => {
   const { data: session } = useSession();
@@ -47,7 +48,7 @@ const Community = () => {
             <div className="clientbox">
               Post
             </div>
-            <input placeholder="How can we help you?" className="inputorder"></input>
+            <input placeholder="How can we help you?"className="inputorder"></input>
           </div>
           <div className="apost">
             <div className="clientbox">
