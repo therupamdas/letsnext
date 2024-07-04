@@ -5,6 +5,8 @@ body {
 }
 
 /*
+dim
+roe
 sidebar
 gitgit 
 h1
@@ -25,6 +27,11 @@ h1 {
 
 h2 {
     margin: 0.1vw;
+}
+.nomt{
+    padding-left: 1vw;
+    font-family: 'Times New Roman';
+    font-size: 1vw;
 }
 
 .ed:hover {
@@ -305,6 +312,31 @@ header {
     width: 3vw;
 
 }
+#circle{
+    aspect-ratio: 1/1;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    border: 3px solid white;
+
+}
+.roe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.dim{
+    cursor: pointer;
+    transition: all ease 0.3s;
+    border-radius: 3vw;
+    padding: 0.5vw;
+}
+.dim:hover{
+    background-color: #1f1f1f;
+
+}
 
 #backcircle {
 
@@ -347,19 +379,23 @@ ul{
     border-radius: 1vw 0vw 0vw 1vw;
     border: 1px solid #636363;
     border-right: 0;
-    width: 25vw;
-    padding: 1vw;
+    width: 16vw;
+    padding: 9vw;
+    padding-top: 2vw;
     display: flex;
     flex-direction: column;
     height: 50vw;
     
 }
 .sidebar ul{
-    padding-left: 5vw;
+    margin-top: 5vw;
+    padding-left: 0;
+    text-align: left;
 }
 .sidebar li{
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: fit-content;
 }
 .postbar {
     background-color: #000000;

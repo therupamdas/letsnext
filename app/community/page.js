@@ -9,35 +9,37 @@ const Community = () => {
       <div className="container">
         <div className="sidebar">
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
-            <li>Blog</li>
-            <li>Portfolio</li>
-            <li>Careers</li>
-              {
-                !session &&
-                <div className="glow2" id="displaypicture">
-                    <div className="visiual_01">
-                        <div id="backcircle"></div>
-                        <img id="logopic" src="https://boo-prod.b-cdn.net/database/profiles/17008434628257fdb7f94b3e57346a0a0044d9aece8ec.jpg" alt="ok"></img>
-                    </div>
-                    <b>Please Login</b>
+            <li className="dim">Home</li>
+            <li className="dim">About</li>
+            <li className="dim">Services</li>
+            <li className="dim">Contact</li>
+            <li className="dim">Blog</li>
+            <li className="dim">Portfolio</li>
+            <li className="dim" >Careers</li>
+            {
+              !session &&
+              <div className="roe dim">
+                <div >
+                  <img id="circle" src="https://boo-prod.b-cdn.net/database/profiles/17008434628257fdb7f94b3e57346a0a0044d9aece8ec.jpg" alt="ok"></img>
                 </div>
-              }
-              {
-                session &&
-                <div className="glow2" id="displaypicture">
-                    <div className="visiual_01">
-                        <div id="backcircle"></div>
-                        <img id="logopic" src={session.user.image} alt="ok"></img>
-                    </div>
-                    <b>{session.user.name}</b>
+                <b className="nomt">
+                  Please Login
+                </b>
+              </div>
+            }
+            {
+              session &&
+              <div className="roe dim">
+                <div >
+                  <img id="circle" src={session.user.image} alt="ok"></img>
                 </div>
-              }
+                <b className="nomt">
+                  {session.user.name}
+                </b>
+              </div>
+            }
           </ul>
-            
+
 
         </div>
         <div className="postbar">
