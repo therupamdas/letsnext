@@ -5,6 +5,7 @@ body {
 }
 
 /*
+apost
 dim
 order
 bod
@@ -30,13 +31,15 @@ h1 {
 h2 {
     margin: 0.1vw;
 }
-.nomt{
+
+.nomt {
     padding-left: 1vw;
     font-family: 'Times New Roman';
     font-size: 1.5vw;
 }
-.bod1{
-    border:solid 0.3vw #1b1b1b;
+
+.bod1 {
+    border: solid 0.3vw #1b1b1b;
 }
 
 .ed:hover {
@@ -317,7 +320,8 @@ header {
     width: 3vw;
 
 }
-#circle{
+
+#circle {
     aspect-ratio: 1/1;
     height: 3vw;
     width: 3vw;
@@ -325,20 +329,23 @@ header {
     border: 3px solid white;
 
 }
-.roe{
+
+.roe {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    
+
 }
-.dim{
+
+.dim {
     cursor: pointer;
     transition: all ease 0.3s;
     border-radius: 3vw;
     padding: 0.5vw;
 }
-.dim:hover{
+
+.dim:hover {
     background-color: #1f1f1f;
 
 }
@@ -365,10 +372,12 @@ header {
     background-color: #20ff5f00;
 
 }
-ul{
+
+ul {
     list-style-type: none;
 
 }
+
 .container {
     display: flex;
     flex-direction: row;
@@ -390,18 +399,21 @@ ul{
     display: flex;
     flex-direction: column;
     height: 50vw;
-    
+
 }
-.sidebar ul{
+
+.sidebar ul {
     margin-top: 5vw;
     padding-left: 0;
     text-align: left;
 }
-.sidebar li{
+
+.sidebar li {
     padding-left: 1vw;
     padding-right: 1vw;
     width: fit-content;
 }
+
 .postbar {
     background-color: #000000;
     border: 1px solid #636363;
@@ -413,22 +425,49 @@ ul{
     height: inherit;
 
 }
-.inputorder{
+
+.inputorder {
     border: 0.3vw solid #1f1f1f;
     height: 5vw;
     padding-left: 1vw;
-    margin-bottom: 2vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 95%;
     background-color: #000000;
     color: #636363;
 }
+.greenbutton{
+    background-color: green;
+    color: white;
     
-.order{
+}
+.redbutton{
+    background-color: red;
+    color: white;
+}
+.subutton{
+    background-color: #4308a1;
+    color: white;
+
+}
+.cbt{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 5vw;
+    height: 2vw;
+    margin: 1vw;
+    margin-left: 0.35vw;
+    border-radius: 0.3vw;
+    border: solid 1px white;
+}
+
+.order {
     border: 1px solid #1f1f1f;
     height: 20vw;
-    margin-bottom: 3vw;
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.apost {
+    margin-bottom: 3vw;
 }
 
 
@@ -826,7 +865,8 @@ footer {
         font-size: 4vw;
         width: 24vw;
     }
-    .glow2 b{
+
+    .glow2 b {
         font-size: 3vw;
 
     }
@@ -924,15 +964,18 @@ footer {
     .usercoverpic {
         margin-bottom: 12vw;
     }
-    .nomt{
+
+    .nomt {
         padding-left: 1vw;
         font-family: 'Times New Roman';
         font-size: 3.5vw;
     }
-    .sidebar li{
+
+    .sidebar li {
         font-size: 3.5vw;
     }
-    .sidebar{
+
+    .sidebar {
         width: 55vw;
     }
 
