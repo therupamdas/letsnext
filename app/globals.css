@@ -43,7 +43,7 @@ h2 {
 }
 
 .bod1 {
-    border: solid 0.3vw #1b1b1b;
+    border: solid 0.2vw #3b3b3b;
 }
 
 .ed:hover {
@@ -1025,6 +1025,7 @@ footer {
         margin: 1vw;
         margin-left: 0.35vw;
         border-radius: 0.3vw;
+        border: solid 2px white;
     }
     .order{
         border: 1px solid #969696;
