@@ -20,7 +20,7 @@ const Community = () => {
               !session &&
               <div className="bod1 roe dim">
                 <div >
-                  <img id="circle" src="https://boo-prod.b-cdn.net/database/profiles/17008434628257fdb7f94b3e57346a0a0044d9aece8ec.jpg" alt="ok"></img>
+                  <img id="circle" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="ok"></img>
                 </div>
                 <b className="nomt">
                   Please Login
