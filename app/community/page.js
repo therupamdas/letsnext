@@ -18,7 +18,7 @@ const Community = () => {
             <li className="dim" >Careers</li>
             {
               !session &&
-              <div className="roe dim">
+              <div className="bod1 roe dim">
                 <div >
                   <img id="circle" src="https://boo-prod.b-cdn.net/database/profiles/17008434628257fdb7f94b3e57346a0a0044d9aece8ec.jpg" alt="ok"></img>
                 </div>
@@ -29,7 +29,7 @@ const Community = () => {
             }
             {
               session &&
-              <div className="roe dim">
+              <div className=" bod1 roe dim">
                 <div >
                   <img id="circle" src={session.user.image} alt="ok"></img>
                 </div>

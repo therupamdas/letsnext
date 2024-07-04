@@ -31,7 +31,10 @@ h2 {
 .nomt{
     padding-left: 1vw;
     font-family: 'Times New Roman';
-    font-size: 1vw;
+    font-size: 1.5vw;
+}
+.bod1{
+    border:solid 1px #121212;
 }
 
 .ed:hover {
@@ -379,7 +382,7 @@ ul{
     border-radius: 1vw 0vw 0vw 1vw;
     border: 1px solid #636363;
     border-right: 0;
-    width: 16vw;
+    width: 25vw;
     padding: 9vw;
     padding-top: 2vw;
     display: flex;
@@ -907,8 +910,17 @@ footer {
 
     .usercoverpic {
         margin-bottom: 12vw;
-
-
+    }
+    .nomt{
+        padding-left: 1vw;
+        font-family: 'Times New Roman';
+        font-size: 3.5vw;
+    }
+    .sidebar li{
+        font-size: 3.5vw;
+    }
+    .sidebar{
+        width: 55vw;
     }
 
 }
