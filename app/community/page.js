@@ -1,6 +1,9 @@
-import React from 'react'
+"use client"
+import React from "react";
+import { useSession, signIn, signOut } from "next-auth/react"
 
 const Community = () => {
+  const { data: session } = useSession();
   return (
     <>
       <div className="container">
@@ -14,6 +17,16 @@ const Community = () => {
             <li>Portfolio</li>
             <li>Careers</li>
           </ul>
+            {
+                session &&
+                <div className="glow2" id="displaypicture">
+                    <div className="visiual_01">
+                        <div id="backcircle"></div>
+                        <img id="logopic" src={session.user.image}></img>
+                    </div>
+                    <b>{session.user.name}</b>
+                </div>
+            }
 
         </div>
         <div className="postbar">

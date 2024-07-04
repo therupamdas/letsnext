@@ -347,7 +347,7 @@ ul{
     border-radius: 1vw 0vw 0vw 1vw;
     border: 1px solid #636363;
     border-right: 0;
-    width: 15vw;
+    width: 25vw;
     padding: 1vw;
     display: flex;
     flex-direction: column;
@@ -355,7 +355,7 @@ ul{
     
 }
 .sidebar ul{
-    padding-left: 1vw;
+    padding-left: 5vw;
 }
 .sidebar li{
     margin-top: 2vw;
@@ -376,6 +376,7 @@ ul{
     border: 1px solid #1f1f1f;
     height: 20vw;
     margin-bottom: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
