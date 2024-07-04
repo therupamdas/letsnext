@@ -56,6 +56,7 @@ const Community = () => {
             <button className="cbt subutton" >Submit</button>
           </div>
           {reqs.map((user, index) => (
+            
           <div className="apost">
             <div className="clientbox">
               <img className="clientpic" src={user.image} alt="ok" />
