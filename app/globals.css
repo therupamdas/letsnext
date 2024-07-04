@@ -17,6 +17,7 @@ roe
 sidebar
 gitgit 
 h1
+footer
 logbox
 img
 profile
@@ -756,7 +757,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10%;
+    height: 20vw;
     width: 100%;
     background-color: rgb(26, 36, 63);
     bottom: 0;
@@ -917,7 +918,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 10%;
+        height: 40vw;
         width: 100%;
         background-color: rgb(26, 36, 63);
         flex-direction: column;
