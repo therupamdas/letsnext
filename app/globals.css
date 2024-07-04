@@ -400,12 +400,12 @@ ul {
     padding-top: 2vw;
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: 60vh;
 
 }
 
 .sidebar ul {
-    margin-top: 5vw;
+    margin-top: 2vw;
     padding-left: 0;
     text-align: left;
 }
