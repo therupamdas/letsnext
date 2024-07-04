@@ -993,5 +993,13 @@ footer {
     .sidebar {
         width: 55vw;
     }
+    .cbt{
+        font-size: 4vw;
+        width: 18vw;
+        height: 9cqw;
+        margin: 1vw;
+        margin-left: 0.35vw;
+        border-radius: 0.3vw;
+    }
 
 }
