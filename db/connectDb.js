@@ -1,5 +1,10 @@
 import mongoose from "mongoose";
 import User from "@/models/User";
+import Reqpost from "@/models/Reqpost";
+
+
+
+
 
 const connectDB = async () => {
   try {
@@ -11,7 +16,9 @@ const connectDB = async () => {
   }
 }
 
+
 connectDB();
+export const reqs = await  Reqpost.find();
 export const users = await  User.find();
 export default connectDB;
 

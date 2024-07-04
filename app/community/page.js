@@ -1,10 +1,14 @@
-"use client"
+// "use client"
 import React from "react";
-import { useSession, signIn, signOut } from "next-auth/react";
+// import { useSession, signIn, signOut } from "next-auth/react";
+import { sessionap,userkaname,userimage } from "@/db/sss";
+import { reqs } from "@/db/connectDb";
+
 
 
 const Community = () => {
-  const { data: session } = useSession();
+  const session = sessionap;
+  
   return (
     <>
       <div className="container">
@@ -51,17 +55,19 @@ const Community = () => {
             <input placeholder="How can we help you?" className="inputorder"></input>
             <button className="cbt subutton" >Submit</button>
           </div>
+          {reqs.map((user, index) => (
           <div className="apost">
             <div className="clientbox">
-              <img className="clientpic" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="ok" />
-              <p className="clientname"> Rupam Das</p>
+              <img className="clientpic" src={user.image} alt="ok" />
+              <p className="clientname">{user.username}</p>
             </div>
             <div className="order">
-
+            <p>{user.orderofclient}</p>
             </div>
             <button className="cbt greenbutton" >Accept</button>
             <button className="cbt redbutton" >Decline</button>
           </div>
+          ))}
         </div>
       </div>
     </>
