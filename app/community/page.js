@@ -1,18 +1,16 @@
-// "use client"
 import React from "react";
-// import { useSession, signIn, signOut } from "next-auth/react";
-import { sessionap,userkaname,userimage } from "@/db/sss";
 import { reqs } from "@/db/connectDb";
+import Sidebar from "@/components/Sidebar";
+
 
 
 
 const Community = () => {
-  const session = sessionap;
-  
+
   return (
     <>
       <div className="container">
-        <div className="sidebar">
+        {/* <div className="sidebar">
           <ul>
             <li className="dim">Home</li>
             <li className="dim">About</li>
@@ -36,27 +34,28 @@ const Community = () => {
               session &&
               <div className=" bod1 roe dim">
                 <div >
-                  <img id="circle" src={session.user.image} alt="ok"></img>
+                  <img id="circle" src={userimage} alt="ok"></img>
                 </div>
                 <b className="nomt">
-                  {session.user.name}
+                  {userkaname}
                 </b>
               </div>
             }
           </ul>
 
 
-        </div>
+        </div> */}
+        <Sidebar/>
         <div className="postbar">
           <div className="apost">
             <div className="clientbox">
-              Post as {session && <b>{session.user.name}</b>}
+              Post as
             </div>
             <input placeholder="How can we help you?" className="inputorder"></input>
             <button className="cbt subutton" >Submit</button>
           </div>
           {reqs.map((user, index) => (
-            
+
           <div className="apost">
             <div className="clientbox">
               <img className="clientpic" src={user.image} alt="ok" />
