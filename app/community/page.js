@@ -56,7 +56,7 @@ const Community = () => {
           </div>
           {reqs.map((user, index) => (
 
-          <div className="apost">
+          <div key={index} className="apost">
             <div className="clientbox">
               <img className="clientpic" src={user.image} alt="ok" />
               <p className="clientname">{user.username}</p>
