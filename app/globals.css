@@ -750,6 +750,10 @@ footer {
         font-size: 4vw;
         width: 24vw;
     }
+    .glow2 b{
+        font-size: 3vw;
+
+    }
 
     footer {
         bottom: 0;

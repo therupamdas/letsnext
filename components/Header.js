@@ -28,7 +28,7 @@ const Header = () => {
             </div>
             <div className="user" >
                 {!session && <Link href={" "}  className="sinup" onClick={() => {document.querySelector(".logbox").classList.add("active")}}>Log in</Link>}
-                {!session && <Link href={" "}  className="sinup">Sign in</Link>}
+                {!session && <Link href={" "}  className="sinup">Dash</Link>}
                 {session && <Link href={"/profile"} className="sinup">Profile</Link>}
                 {session && <Link href={" "}  className="sinup" onClick={() => { signOut() }}>Sign out</Link>}
             </div>
