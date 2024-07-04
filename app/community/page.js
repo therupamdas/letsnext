@@ -16,17 +16,18 @@ const Community = () => {
             <li>Blog</li>
             <li>Portfolio</li>
             <li>Careers</li>
-          </ul>
-            {
+              {
                 session &&
-                <div className="glow2" id="displaypicture">
+                <div>
                     <div className="visiual_01">
                         <div id="backcircle"></div>
-                        <img id="logopic" src={session.user.image}></img>
+                        <img id="logopic" src={session.user.image} alt="ok"></img>
                     </div>
                     <b>{session.user.name}</b>
                 </div>
-            }
+              }
+          </ul>
+            
 
         </div>
         <div className="postbar">
