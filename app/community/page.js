@@ -17,8 +17,18 @@ const Community = () => {
             <li>Portfolio</li>
             <li>Careers</li>
               {
+                !session &&
+                <div className="glow2" id="displaypicture">
+                    <div className="visiual_01">
+                        <div id="backcircle"></div>
+                        <img id="logopic" src="https://boo-prod.b-cdn.net/database/profiles/17008434628257fdb7f94b3e57346a0a0044d9aece8ec.jpg" alt="ok"></img>
+                    </div>
+                    <b>Please Login</b>
+                </div>
+              }
+              {
                 session &&
-                <div>
+                <div className="glow2" id="displaypicture">
                     <div className="visiual_01">
                         <div id="backcircle"></div>
                         <img id="logopic" src={session.user.image} alt="ok"></img>
