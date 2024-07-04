@@ -489,13 +489,13 @@ ul {
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-bottom: 0.1vw;
+    margin-bottom: 0.3vw;
     
 }
 .clientname{
     margin: 0;
-    margin-left: 0.3vw;
-    font-size: 1.7vw;
+    margin-left: 0.5vw;
+    font-size: 1.1vw;
 }
 .clientpic{
     aspect-ratio: 1/1;
