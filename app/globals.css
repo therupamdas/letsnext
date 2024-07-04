@@ -6,6 +6,7 @@ body {
 
 /*
 dim
+order
 bod
 roe
 sidebar
@@ -412,6 +413,17 @@ ul{
     height: inherit;
 
 }
+.inputorder{
+    border: 0.3vw solid #1f1f1f;
+    height: 5vw;
+    padding-left: 1vw;
+    margin-bottom: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 95%;
+    background-color: #000000;
+    color: #636363;
+}
+    
 .order{
     border: 1px solid #1f1f1f;
     height: 20vw;

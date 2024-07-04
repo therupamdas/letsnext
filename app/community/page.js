@@ -45,19 +45,9 @@ const Community = () => {
         <div className="postbar">
           <div className="apost">
             <div className="clientbox">
-              Rupam Das
+              Post
             </div>
-            <div className="order">
-              ok
-            </div>
-          </div>
-          <div className="apost">
-            <div className="clientbox">
-              Rupam Das
-            </div>
-            <div className="order">
-              ok
-            </div>
+            <input placeholder="How can we help you?" className="inputorder"></input>
           </div>
           <div className="apost">
             <div className="clientbox">
