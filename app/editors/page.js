@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import connectDB,{ users } from '@/db/connectDb';
+import connectDB,{ users,reqs } from '@/db/connectDb';
 
 
 const Editors = () => {
