@@ -46,17 +46,18 @@ const Community = () => {
         <div className="postbar">
           <div className="apost">
             <div className="clientbox">
-              Post as {session && <b>{session.user.name}</b> }
+              Post as {session && <b>{session.user.name}</b>}
             </div>
-            <input placeholder="How can we help you?"className="inputorder"></input>
+            <input placeholder="How can we help you?" className="inputorder"></input>
             <button className="cbt subutton" >Submit</button>
           </div>
           <div className="apost">
             <div className="clientbox">
-              Rupam Das
+              <img className="clientpic" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="ok" />
+              <p className="clientname"> Rupam Das</p>
             </div>
             <div className="order">
-              
+
             </div>
             <button className="cbt greenbutton" >Accept</button>
             <button className="cbt redbutton" >Decline</button>

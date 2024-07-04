@@ -5,6 +5,8 @@ body {
 }
 
 /*
+client
+circle
 apost
 edilist
 order
@@ -482,9 +484,27 @@ ul {
 }
 
 .apost {
-    margin-bottom: 3vw;
 }
+.clientbox{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 0.1vw;
+    
+}
+.clientname{
+    margin: 0;
+    margin-left: 0.3vw;
+    font-size: 1.7vw;
+}
+.clientpic{
+    aspect-ratio: 1/1;
+    height: 1.5vw;
+    width: 1.5vw;
+    border-radius: 50%;
+    border: 1px solid white;
 
+}
 
 .emblem {
     position: absolute;
