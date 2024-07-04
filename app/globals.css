@@ -449,6 +449,20 @@ ul {
     color: white;
 
 }
+.greenbutton:hover{
+    background-color: rgb(78, 189, 78);
+    color: white;
+    
+}
+.redbutton:hover{
+    background-color: rgb(255, 71, 71);
+    color: white;
+}
+.subutton:hover{
+    background-color: #6830c4;
+    color: white;
+
+}
 .cbt{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 5vw;
@@ -457,6 +471,7 @@ ul {
     margin-left: 0.35vw;
     border-radius: 0.3vw;
     border: solid 1px white;
+    transition: all ease 0.3s;
 }
 
 .order {
