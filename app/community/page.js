@@ -49,7 +49,7 @@ const Community = () => {
         <div className="postbar">
           <div className="apost">
             <div className="clientbox">
-              Post as
+              Post a Request 
             </div>
             <input placeholder="How can we help you?" className="inputorder"></input>
             <button className="cbt subutton" >Submit</button>
