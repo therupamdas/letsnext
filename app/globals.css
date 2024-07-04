@@ -6,6 +6,7 @@ body {
 
 /*
 dim
+bod
 roe
 sidebar
 gitgit 
@@ -34,7 +35,7 @@ h2 {
     font-size: 1.5vw;
 }
 .bod1{
-    border:solid 1px #121212;
+    border:solid 0.3vw #1b1b1b;
 }
 
 .ed:hover {
@@ -742,7 +743,7 @@ footer {
 
     .glow {
         margin-left: 3vw;
-        margin-right: 30%;
+        margin-right: 20%;
         width: 22vw;
         height: 22vw;
         transition: all ease 0.2s;
