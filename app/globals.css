@@ -9,7 +9,7 @@ inputorder
 button
 cbt roe
 dim
-bod
+bod sidebar
 .ent
 logbox
 client
@@ -28,7 +28,7 @@ footer
 logbox
 img
 profile
-sinup 
+sinup roe
 outt
 ed
 ok
@@ -49,7 +49,7 @@ h2 {
     padding-right: 1vw;
     font-family: 'Times New Roman';
     font-size: 1.5vw;
-    width: 100%;
+
 }
 
 
@@ -353,11 +353,10 @@ header {
 
 .roe {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-direction: row;
-    width: 13vw;
-
+    white-space: nowrap;
 }
 .mtop{
     margin-top: 3vw;
@@ -417,7 +416,7 @@ ul {
     background-color: #121212;
     border-radius: 1vw 1vw 1vw 1vw;
     /* border: 1px solid #636363; */
-    width: 25vw;
+    /* width: 25vw; */
     padding: 5vw;
     padding-top: 2vw;
     display: flex;
@@ -834,7 +833,7 @@ footer {
     color: #ffffff;
 }
 
-@media only screen and (max-width:1200px) {
+@media only screen and (orientation: portrait) {
     header {
         width: 100%;
         transition: all ease 0.2s;
@@ -1042,8 +1041,7 @@ footer {
         padding-left: 1vw;
         padding-right: 1vw;
         font-family: 'Times New Roman';
-        font-size: 3.5vw;
-        width: 100%;
+        font-size: 3vw;
     }
 
     .sidebar li {
@@ -1051,7 +1049,6 @@ footer {
     }
 
     .sidebar {
-        width: 55vw;
         height: 88vh;
     }
     .cbt{
@@ -1078,12 +1075,15 @@ footer {
         color: #ffffff;
         
     }
-    .roe {
-        width: 28vw;
-    
-    }
     #circle{
         margin: 0.6vw;
+    }
+    .roe {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        flex-direction: row;
+        white-space: nowrap;
     }
 
 }
