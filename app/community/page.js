@@ -51,7 +51,7 @@ const Community = () => {
             <div className="clientbox">
               Post a Request 
             </div>
-            <input placeholder="How can we help you?" className="inputorder"></input>
+            <textarea placeholder="How can we help you?" className="inputorder"></textarea>
             <button className="cbt subutton" >Submit</button>
           </div>
           {reqs.map((user, index) => (
