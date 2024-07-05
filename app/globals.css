@@ -9,6 +9,7 @@ inputorder
 button
 cbt roe
 dim
+bod
 .ent
 logbox
 client
@@ -45,8 +46,10 @@ h2 {
 
 .nomt {
     padding-left: 1vw;
+    padding-right: 1vw;
     font-family: 'Times New Roman';
     font-size: 1.5vw;
+    width: 100%;
 }
 
 
@@ -353,10 +356,11 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    width: 13vw;
 
 }
 .mtop{
-    margin-top: 5vw;
+    margin-top: 3vw;
 }
 
 .dim {
@@ -1036,8 +1040,10 @@ footer {
 
     .nomt {
         padding-left: 1vw;
+        padding-right: 1vw;
         font-family: 'Times New Roman';
         font-size: 3.5vw;
+        width: 100%;
     }
 
     .sidebar li {
@@ -1071,6 +1077,13 @@ footer {
         background-color: #1f1f1f;
         color: #ffffff;
         
+    }
+    .roe {
+        width: 28vw;
+    
+    }
+    #circle{
+        margin: 0.6vw;
     }
 
 }
