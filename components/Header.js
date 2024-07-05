@@ -12,12 +12,12 @@ const Header = () => {
             <div className="logbox">
                 <button className="cross" id="logcross" onClick={() => {document.querySelector(".logbox").classList.remove("active");}}>x</button>
                 <h2>Log in </h2>
-                <label>Email</label>
+                {/* <label>Email</label>
                 <input type="text" placeholder="Email Id"></input>
                 <label>Password</label>
                 <input type="text" placeholder="Password"></input>
                 <button onClick={() => {document.querySelector(".logbox").classList.remove("active");}}className={`ent ${gazpacho.className}`}>Enter</button>
-                <hr className="linebar"></hr>
+                <hr className="linebar"></hr> */}
                 <button className={`ent ${gazpacho.className}`} id="gitgit" onClick={() => { signIn("github");document.querySelector(".logbox").classList.remove("active"); }} >GitHub</button>
                 <button className={`ent ${gazpacho.className}`} id="googoo" onClick={() => { signIn("google");document.querySelector(".logbox").classList.remove("active");}} >Google</button>
                 

@@ -10,41 +10,6 @@ const Community = () => {
   return (
     <>
       <div className="container">
-        {/* <div className="sidebar">
-          <ul>
-            <li className="dim">Home</li>
-            <li className="dim">About</li>
-            <li className="dim">Services</li>
-            <li className="dim">Contact</li>
-            <li className="dim">Blog</li>
-            <li className="dim">Portfolio</li>
-            <li className="dim" >Careers</li>
-            {
-              !session &&
-              <div className="bod1 roe dim">
-                <div >
-                  <img id="circle" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="ok"></img>
-                </div>
-                <b className="nomt">
-                  Please Login
-                </b>
-              </div>
-            }
-            {
-              session &&
-              <div className=" bod1 roe dim">
-                <div >
-                  <img id="circle" src={userimage} alt="ok"></img>
-                </div>
-                <b className="nomt">
-                  {userkaname}
-                </b>
-              </div>
-            }
-          </ul>
-
-
-        </div> */}
         <Sidebar/>
         <div className="postbar">
           <div className="apost">

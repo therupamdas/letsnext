@@ -8,6 +8,8 @@ body {
 inputorder
 button
 cbt
+.ent
+logbox
 client
 circle
 header
@@ -192,7 +194,8 @@ header {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 
-    height: 36vw;
+    /* height: 36vw; */
+    height: 15vw;
     box-shadow: 0vw 0vw 5vw 1vw #7620ff;
     top: -50%;
     opacity: 0;
@@ -572,7 +575,7 @@ ul {
 .ent {
     text-decoration: none;
     width: 100%;
-    height: 15%;
+    height:5vw;
     margin-top: 2%;
     aspect-ratio: 2.25/1;
     font-size: 1.5vw;
