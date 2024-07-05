@@ -4,7 +4,7 @@ body {
     background-color: #000000;
 }
 
-/*
+/* apost
 inputorder
 button
 client order p
@@ -19,7 +19,7 @@ header
 apost
 edilist
 order
-bod
+bod cbt
 roe
 sidebar
 gitgit 
@@ -27,8 +27,8 @@ h1
 inputorder
 footer
 logbox
-img
-profile
+img postbar
+profile 
 sinup roe
 outt
 ed
@@ -36,6 +36,14 @@ ok
 user
 blok
 */
+.apost{
+    margin-bottom: 1vw;
+    padding: 1vw;
+    padding-right: 3vw;
+    background-color: #1f1f1f;
+    border-radius: 1vw;
+}
+
 h1 {
     color: #7620ff;
     text-align: center;
@@ -443,7 +451,7 @@ ul {
     /* border: 1px solid #636363;
     border-radius: 0vw 1vw 1vw 0vw; */
     width: 80vw;
-    padding: 5vw;
+    padding: 3vw;
     padding-top: 2vw;
     display: flex;
     flex-direction: column;
@@ -452,14 +460,14 @@ ul {
 }
 
 .inputorder {
-    border: 0.2vw solid #1f1f1f;
+    border: 0.2vw solid #1a1919;
     padding: 0.5vw;
     height: 4vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1vw;
     width: 40%;
     margin-right: 60%;
-    background-color: #1f1f1f;
+    background-color: #1a1919;
     color: #ffffff;
     transition: all ease 0.5s;
     resize: none;
@@ -510,6 +518,7 @@ ul {
     margin: 1vw;
     font-size: 1vw;
     margin-left: 0.35vw;
+    margin-bottom: 0;
     border-radius: 0.3vw;
     border: solid 1px white;
     transition: all ease 0.3s;
@@ -1061,6 +1070,7 @@ footer {
         height: 3.1vw;
         margin: 1vw;
         margin-left: 0.35vw;
+        margin-bottom: 0;
         border-radius: 0.3vw;
         border: solid 0.5px white;
     }
@@ -1072,12 +1082,10 @@ footer {
         font-size: 2vw;
     }
     .inputorder{
-        border: 0.2vw solid #1f1f1f;
         font-family: Arial;
         font-size: 2.5vw;
         width: 32vw;
         margin-right: 10vw;
-        background-color: #1f1f1f;
         color: #ffffff;
         
     }
