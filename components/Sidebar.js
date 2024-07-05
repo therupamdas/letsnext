@@ -18,7 +18,7 @@ const Sidebar = () => {
             <li className="dim" >Careers</li>
             {
               !session &&
-              <div className="bod1 roe dim">
+              <div className="mtop bod1 roe dim">
                 <div >
                   <img id="circle" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="ok"></img>
                 </div>
@@ -29,7 +29,7 @@ const Sidebar = () => {
             }
             {
               session &&
-              <div className=" bod1 roe dim">
+              <div className="mtop bod1 roe dim">
                 <div >
                   <img id="circle" src={session.user.image} alt="ok"></img>
                 </div>

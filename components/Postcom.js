@@ -4,7 +4,11 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 
 const Postcom = () => {
-    const [username, setUsername] = useState('')
+    const [username, setUsername] = useState('');
+    const [usernameMessage, setUsernameMessage] = useState('');
+    const [isCheckingUsername, setIsCheckingUsername] = useState(false);
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    
     return (
         <div className="apost">
             <div className="clientbox">

@@ -7,7 +7,8 @@ body {
 /*
 inputorder
 button
-cbt
+cbt roe
+dim
 .ent
 logbox
 client
@@ -354,6 +355,9 @@ header {
     flex-direction: row;
 
 }
+.mtop{
+    margin-top: 5vw;
+}
 
 .dim {
     cursor: pointer;
@@ -409,8 +413,6 @@ ul {
     background-color: #121212;
     border-radius: 1vw 1vw 1vw 1vw;
     /* border: 1px solid #636363; */
-    outline: solid 2px #000000;
-    outline-offset: -20px;
     width: 25vw;
     padding: 5vw;
     padding-top: 2vw;
@@ -1053,7 +1055,7 @@ footer {
         margin: 1vw;
         margin-left: 0.35vw;
         border-radius: 0.3vw;
-        border: solid 2px white;
+        border: solid 0.5px white;
     }
     .order{
         border: 1px solid #969696;
@@ -1062,8 +1064,8 @@ footer {
         border: 0.2vw solid #1f1f1f;
         height: 4vw;
         padding-left: 1vw;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        width: 30vw;
+        font-family: Arial;
+        width: 32vw;
         font-size: 3vw;
         margin-right: 10vw;
         background-color: #1f1f1f;
