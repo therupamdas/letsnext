@@ -9,6 +9,7 @@ button
 cbt
 client
 circle
+header
 apost
 edilist
 order
@@ -395,9 +396,10 @@ ul {
 .sidebar {
     position: sticky;
     top: 1vw;
-    background-color: #000000;
+    background-color: #121212;
     border-radius: 1vw 1vw 1vw 1vw;
-    border: 1px solid #636363;
+    /* border: 1px solid #636363; */
+    outline: solid 2px #4308a1;
     width: 25vw;
     padding: 5vw;
     padding-top: 2vw;
