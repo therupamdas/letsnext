@@ -3,9 +3,6 @@ import User from "@/models/User";
 import Reqpost from "@/models/Reqpost";
 
 
-
-
-
 const connectDB = async () => {
   try {
     const conn = await mongoose.connect(process.env.MONGODB_URI, {});
