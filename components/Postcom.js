@@ -3,6 +3,8 @@ import React from 'react'
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useDebounceValue } from 'usehooks-ts';
+import { useRouter } from 'next/navigation';
+import { Form } from 'react-hook-form';
 
 const Postcom = () => {
     const [username, setUsername] = useState('');
@@ -10,8 +12,25 @@ const Postcom = () => {
     const [isCheckingUsername, setIsCheckingUsername] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const debouncedUsername = useDebounceValue(username,300);
+    const router = useRouter()
+
+    const form = useForm({
+        resolver: zodResolver(reqpostSchema),
+        defaultValues:{
+            username:'',
+            name:'',
+            email:'',
+            image:'',
+            orderofclient:'',
+
+        }
+        
+    })
+    const onSubmit = async() =>{
+
+    }
     return (
-        <div className="apost">
+        <Form className="apost">
             <div className="clientbox">
                 Post a Request
             </div>
@@ -19,7 +38,7 @@ const Postcom = () => {
             <button className="cbt subutton" >
                 Submit
             </button>
-        </div>
+        </Form>
     )
 }
 
